@@ -1,7 +1,7 @@
 #include "secure.h"
 #include <iostream>
 using namespace std;
-void Draw(int counter) 
+void Draw(int counter) // чтобы было красиво в консоли я специально искривил человечка
 {
     switch (counter)
     {
@@ -16,9 +16,9 @@ void Draw(int counter)
         cout << "|" << endl;
         cout << "|" << endl;
         cout << "|" << endl;
-        cout << "|\ " << endl;
-        cout << "| \ " << endl;
-        cout << "|  \ " << endl;
+        cout << "|\\" << endl;
+        cout << "| \\" << endl;
+        cout << "|  \\" << endl;
         break;
     case 5:
         cout << "|==================|" << endl;
@@ -31,9 +31,9 @@ void Draw(int counter)
         cout << "|" << endl;
         cout << "|" << endl;
         cout << "|" << endl;
-        cout << "|\ " << endl;
-        cout << "| \ " << endl;
-        cout << "|  \ " << endl;
+        cout << "|\\" << endl;
+        cout << "| \\" << endl;
+        cout << "|  \\" << endl;
         break;
 
     case 4:
